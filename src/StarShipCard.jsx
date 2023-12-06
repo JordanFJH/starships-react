@@ -12,9 +12,6 @@ export default function StarShipCard() {
             <div key={index} className="ship">{ship.name}</div>
         )
     }
-
-
-
     useEffect(() => {
         async function getStarShips() {
             let starShips = await fetch("https://swapi.dev/api/starships/?format=json")

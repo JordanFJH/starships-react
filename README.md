@@ -1,3 +1,3 @@
 # starship-react
 
-## Homework for (12-12-23)
+## Homework for PerSCholas (12-12-23)
