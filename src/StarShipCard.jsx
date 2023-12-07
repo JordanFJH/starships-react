@@ -9,7 +9,7 @@ export default function StarShipCard() {
 
     function showShip(ship, index) {
         return (
-            <div key={index} className="ship">{ship.name}</div>
+            <h2 key={index} className="ship">{ship.name}</h2>
         )
     }
     useEffect(() => {
@@ -22,7 +22,6 @@ export default function StarShipCard() {
 
     }, [])
 
-
     return (
         <>
             <header>Star Wars StarShips</header>
@@ -31,6 +30,4 @@ export default function StarShipCard() {
             </div>
         </>
     )
-
-
 }
