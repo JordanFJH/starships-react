@@ -20,14 +20,14 @@ body {
 .ship-holder {
   background-color: blue;
   border: 1px solid black;
-  height: 800px;
-  width: 1000px;
+  height: 65%;
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .ship {
+  margin-right: 50px;
   background-color: lightpink;
   border: 1px solid black;
   border-radius: 20px;

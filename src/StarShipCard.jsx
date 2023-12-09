@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+// The api link
 // https://swapi.dev/api/
 
 
